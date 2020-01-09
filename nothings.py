@@ -1,4 +1,4 @@
-#!/usr/local/bin/python
+#!/usr/bin/env python
 from quotes import QuoteGenerator
 
 class MorningRoutine(object):
@@ -16,7 +16,7 @@ class MorningRoutine(object):
   def run(self):
     print("\n>> Hit Enter after each step is completed\n")
     for step in self.instructions:
-      raw_input(">>>> {}".format(step))
+      input(">>>> {}".format(step))
 
 
 if __name__ == "__main__":

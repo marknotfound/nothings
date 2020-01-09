@@ -2,6 +2,9 @@
 
 The instructions/steps are specific to my own use case, so please fork and modify to your needs :)
 
+### Dependencies
+Python 3
+
 ### Usage
 ```
 $ git clone git@github.com:marknotfound/nothings.git
@@ -28,5 +31,5 @@ $ ./nothings.py
 ### Optional Steps
 1. Set up a bash alias to run the script from anywhere.
 ```
-$ echo alias morning="/Users/mdunphy/workspace/dailies/nothings.py" >> ~/.bash_profile
+$ echo alias morning="/Users/mark/workspace/marknotfound/nothings/nothings.py" >> ~/.bash_profile
 ```
